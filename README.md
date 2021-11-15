@@ -1,0 +1,1 @@
+This repo was created as part of my ALX training curriculum to learn a high level language, Python as well as other programming and software engineering concepts. 
