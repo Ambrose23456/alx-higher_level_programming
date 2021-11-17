@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-def fizzBuzz():
+def fizzbuzz():
     """the famous fizzBuzz challenge. Here a range of numbers from 1 to 100 
        is printed and along the way at designated points "fizz", "Buzz" or 
         Fizzbuzz" is printed instead of the number in the sequence"""
