@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-def islower(ord(letter)):
-   if (letter >= 97) and (letter <=122):
-       return true
+def islower(letter):
+   if ord(letter) >= 97 and ord(letter) <= 122:
+       return True
    else:
-       return false
+       return False
