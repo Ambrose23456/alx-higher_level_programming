@@ -1,7 +1,8 @@
 #!/usr/bin/python3
+
 """performs add, subtract, divide and multiplication on given numbers"""
 if __name__ == "__main__":
-    from calculator_1 import sub, mul, div, add
+    from calculator_1 import add, sub, mul, div
 
     a = 10
     b = 5
