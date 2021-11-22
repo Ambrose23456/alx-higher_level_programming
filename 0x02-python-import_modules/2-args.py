@@ -1,16 +1,14 @@
 #!/usr/bin/python3
-"""prints the number and list of arguments passed"""
-if __name__ = "main":
-    import sys
-    i = len(sys.argv) - 1
-
-if len == 0:
-    print("{} arugument.".format(i))
-elif len == 1:
-    print("{} argument:".format(i))
-elif len > 1:
-    i = 0
-    for arg in sys.argv:
-        if i != 0:
-            print("{} : {}".format(i, arg))
-        i += 1
+if __name__ == "__main__":
+    from sys import argv
+    argc = len(argv) - 1
+    if argc < 1:
+        print("{:d} arguments.".format(argc))
+    elif argc == 1:
+        print("{:d} argument:".format(argc))
+        for index in range(1, argc + 1):
+            print("{:d}: {}".format(index, argv[index]))
+    else:
+        print("{:d} arguments:".format(argc))
+        for string in range(1, argc + 1):
+            print("{:d}: {}".format(string, argv[string]))
